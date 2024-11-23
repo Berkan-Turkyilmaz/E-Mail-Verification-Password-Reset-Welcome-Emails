@@ -1,7 +1,7 @@
 import {create } from "zustand";
 import axios from "axios";
 
-const API_URL= import.meta.env.MODE === "development" ? "http://localhost:3000/api/auth" : "api/auth";
+const API_URL= import.meta.env.MODE === "development" ? "http://localhost:3000/api/auth" : "https://e-mail-verification-password-reset.onrender.com/api/auth";
 axios.defaults.withCredentials = true;
 
 export const useAuthStore = create((set) => ({
@@ -85,10 +85,10 @@ export const useAuthStore = create((set) => ({
             throw error;
         }
     },
-    resetPassword: async (token, password) => {
+   resetPassword: async (token, password) => {
         set({isLoading: true, error: null});
         try {
-            const response = await axios.post(`${API_URL}/logout/reset-password/${token}`, {password});
+            const response = await axios.post(`${API_URL}/reset-password/${token}`, {password});
             set({message: response.data.message, isLoading: false});
             console.log(response.data);
             return response.data;
