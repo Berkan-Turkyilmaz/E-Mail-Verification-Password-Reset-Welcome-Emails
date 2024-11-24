@@ -12,10 +12,10 @@ dotenv.config();
 app.use(express.json());
 app.use(cookieParser());
 app.use(
-  cors()
+  cors( )
 );
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT_BACKEND || 5000;
 
 app.use("/api/auth/", authRoutes);
 
