@@ -1,4 +1,4 @@
-📧 E-Mail-Verifizierung, Passwort-Reset & Willkommens-E-Mails
+**📧 E-Mail-Verifizierung, Passwort-Reset & Willkommens-E-Mails**
 
 Tech-Stack: MERN (MongoDB, Express.js, React, Node.js)
 
@@ -26,7 +26,7 @@ Dieses Projekt bietet eine benutzerfreundliche und sichere Lösung zur Verwaltun
 
 
 
-📧 E-Mail Verification, Password Reset & Welcome Emails
+**📧 E-Mail Verification, Password Reset & Welcome Emails**
 
 Tech Stack: MERN (MongoDB, Express.js, React, Node.js)
 
