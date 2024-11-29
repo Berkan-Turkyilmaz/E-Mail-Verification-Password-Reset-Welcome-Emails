@@ -17,3 +17,24 @@ Falls der Benutzer sein Passwort vergisst oder ändern möchte, wird ein Passwor
 
 🚀 Modern und Effizient:
 Dieses Projekt bietet eine benutzerfreundliche und sichere Lösung zur Verwaltung von E-Mail-Verifizierung, Willkommensnachrichten und Passwort-Reset.
+
+
+
+
+
+
+📧 E-Mail Verification, Password Reset & Welcome Emails
+
+Tech Stack: MERN (MongoDB, Express.js, React, Node.js)
+
+State Management: Zustand
+
+Deployed Website URL: https://e-mail-verification-password-reset.onrender.com/
+
+🔹 E-Mail Verification: After registration, a verification code is sent to the user's email address. The user activates their account by entering this code on the website.
+
+🔹 Welcome Email: After successful verification, the user receives a welcome message via email.
+
+🔹 Password Reset/Update: If the user forgets their password or wants to change it, a password reset link is sent to their email.
+
+🚀 Modern and Efficient: This project offers a user-friendly and secure solution for managing email verification, welcome messages, and password reset functionalities.
