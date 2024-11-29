@@ -1,7 +1,10 @@
 📧 E-Mail-Verifizierung, Passwort-Reset & Willkommens-E-Mails
+
 Tech-Stack: MERN (MongoDB, Express.js, React, Node.js)
+
 State Management: Zustand
-Deployed Website-URL: https://e-mail-verification-password-reset.onrender.com/login
+
+Deployed Website-URL: https://e-mail-verification-password-reset.onrender.com/
 
 🔹 E-Mail-Verifizierung:
 Nach der Registrierung wird ein Verifizierungscode an die angegebene E-Mail-Adresse gesendet. Der Benutzer aktiviert sein Konto, indem er diesen Code auf der Website eingibt.
