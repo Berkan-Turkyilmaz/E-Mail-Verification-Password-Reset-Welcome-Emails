@@ -4,6 +4,8 @@ Tech-Stack: MERN (MongoDB, Express.js, React, Node.js)
 
 State Management: Zustand
 
+Operationen mit E-Mail: Mailtrap
+
 Deployed Website-URL: https://e-mail-verification-password-reset.onrender.com/
 
 🔹 E-Mail-Verifizierung:
@@ -28,6 +30,8 @@ Dieses Projekt bietet eine benutzerfreundliche und sichere Lösung zur Verwaltun
 Tech Stack: MERN (MongoDB, Express.js, React, Node.js)
 
 State Management: Zustand
+
+Mail Operations: Mailtrap
 
 Deployed Website URL: https://e-mail-verification-password-reset.onrender.com/
 
