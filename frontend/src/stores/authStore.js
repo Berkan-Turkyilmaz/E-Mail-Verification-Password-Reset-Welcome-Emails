@@ -1,7 +1,8 @@
 import {create } from "zustand";
 import axios from "axios";
 
-const API_URL="http://localhost:3000/api/auth";
+
+const API_URL = "/api/auth";
 axios.defaults.withCredentials = true;
 
 export const useAuthStore = create((set) => ({
@@ -85,7 +86,7 @@ export const useAuthStore = create((set) => ({
             throw error;
         }
     },
-    resetPassword: async (token, password) => {
+   resetPassword: async (token, password) => {
         set({isLoading: true, error: null});
         try {
             const response = await axios.post(`${API_URL}/reset-password/${token}`, {password});

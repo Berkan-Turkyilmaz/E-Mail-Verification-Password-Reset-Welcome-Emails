@@ -12,18 +12,15 @@ dotenv.config();
 app.use(express.json());
 app.use(cookieParser());
 app.use(
-  cors({
-    origin: "http://localhost:5173",
-    credentials: true,
-  })
+  cors( )
 );
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT_BACKEND || 5000;
 
 app.use("/api/auth/", authRoutes);
 
 if (process.env.NODE_ENV === "production") {
-    app.use(express.static(path.join(__dirname, "/frontend/dist")));
+    app.use(express.static(path.join(__dirname, "/frontend/dist")));  
     app.get("*", (req, res) => {
       res.sendFile(path.resolve(__dirname, "frontend", "dist", "index.html"));
     });
@@ -31,5 +28,5 @@ if (process.env.NODE_ENV === "production") {
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
-  connectDB();
+  connectDB();  
 });
