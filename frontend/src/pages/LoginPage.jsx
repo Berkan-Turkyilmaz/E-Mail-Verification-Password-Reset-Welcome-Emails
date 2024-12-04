@@ -26,7 +26,7 @@ const LoginPage = () => {
       transition={0.5}
       className="h-screen w-screen flex items-center justify-center"
     >
-      <div className="h-auto w-1/4 rounded-xl flex-col flex gap-6 items-center bg-customLastBG bg-opacity-50">
+      <div className="h-auto w-1/4 min-w-[275px]  rounded-xl flex-col flex gap-6 items-center bg-customLastBG bg-opacity-50">
         <div className="mt-12 text-3xl font-bold text-emerald-400 tracking-wide mb-4">
           Sign In 
         </div>
@@ -35,7 +35,7 @@ const LoginPage = () => {
           <MdOutlineEmail  style={{ fill: "seagreen" }} className="ml-1" />
 
           <input
-            className="flex-1 outline-none text-white bg-customBG2   "
+            className="flex-1 w-2/3 outline-none text-white bg-customBG2   "
             placeholder="E-Mail"
             type="text"
             value={email}
@@ -46,7 +46,7 @@ const LoginPage = () => {
           <RiLockPasswordLine style={{ fill: "seagreen" }} className="ml-1" />
 
           <input
-            className="flex-1 outline-none  text-white bg-customBG2   "
+            className="flex-1 w-2/3 outline-none  text-white bg-customBG2   "
             placeholder="Password"
             type="password"
             value={password}

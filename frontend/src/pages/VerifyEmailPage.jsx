@@ -30,7 +30,7 @@ const VerifyEmailPage = () => {
       transition={0.5}
       className="min-h-screen w-full  flex justify-center items-center "
     >
-      <div className="w-1/5 h-auto flex flex-col bg gap-y-8 rounded-xl bg-customLastBG bg-opacity-50  ">
+      <div className="w-1/5 min-w-[275px] h-auto flex flex-col bg gap-y-8 rounded-xl bg-customLastBG bg-opacity-50  ">
         <div className="mt-10 text-3xl font-bold text-emerald-500 mb-2 text-center">
           Verify Your Email
         </div>

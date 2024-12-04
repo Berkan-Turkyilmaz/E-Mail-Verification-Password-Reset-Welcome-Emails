@@ -20,7 +20,7 @@ const HomePage = () => {
       transition={0.5}
       className="h-screen w-screen flex items-center justify-center"
     >
-      <div className="flex flex-col gap-6  h-auto w-1/4 bg-customLastBG bg-opacity-50 rounded-xl">
+      <div className="flex flex-col gap-6 min-w-[325px]  h-auto w-1/4 bg-customLastBG bg-opacity-50 rounded-xl">
         <div className="text-center mt-8 mb-4 text-3xl  text-green-500 font-bold">Dashboard</div>
         <div className="pb-2 shadow-[0_0_0_1px_#000]  pl-4 ml-6 mr-6  rounded-xl">
           <div className="mb-4 mt-2  text-xl font-semibold text-green-500">Profile Information</div>

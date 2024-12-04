@@ -36,13 +36,13 @@ const ResetPasswordPage = () => {
       transition={0.5}
       className="min-h-screen  w-full  flex justify-center items-center "
     >
-      <div className="h-auto w-1/4  bg-customLastBG bg-opacity-50 rounded-xl">
+      <div className="h-auto w-1/4 min-w-[300px]  bg-customLastBG bg-opacity-50 rounded-xl">
         <div className=" mt-10 mb-8 text-3xl font-bold text-emerald-500  text-center">
           Forgot Password
         </div>
         <div className="w-full flex-col">
           <div className="w-full flex justify-center">
-            <div className="mb-10 flex w-3/4  items-center bg-customBG2 rounded-xl gap-x-2 h-10">
+            <div className="mb-10 flex w-3/4  items-center bg-customBG2 rounded-xl  h-10">
               <RiLockPasswordLine
                 className="m-4"
                 style={{ fill: "seagreen" }}
@@ -57,7 +57,7 @@ const ResetPasswordPage = () => {
             </div>
           </div>
           <div className="w-full flex justify-center">
-            <div className="mb-6 flex w-3/4  items-center bg-customBG2 rounded-xl gap-x-2 h-10">
+            <div className="mb-6 flex w-3/4  items-center bg-customBG2 rounded-xl h-10">
               <RiLockPasswordLine
                 className="m-4"
                 style={{ fill: "seagreen" }}
