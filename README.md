@@ -6,7 +6,7 @@ State Management: Zustand
 
 Operationen mit E-Mail: Mailtrap
 
-Deployed Website-URL: https://e-mail-verification-password-reset.onrender.com/
+Deployed Website-URL: https://e-mail-verification-password-reset-pu98.onrender.com/
 
 🔹 E-Mail-Verifizierung:
 Nach der Registrierung wird ein Verifizierungscode an die angegebene E-Mail-Adresse gesendet. Der Benutzer aktiviert sein Konto, indem er diesen Code auf der Website eingibt.
@@ -34,7 +34,7 @@ State Management: Zustand
 
 Mail Operations: Mailtrap
 
-Deployed Website URL: https://e-mail-verification-password-reset.onrender.com/
+Deployed Website-URL: https://e-mail-verification-password-reset-pu98.onrender.com/
 
 🔹 E-Mail Verification: After registration, a verification code is sent to the user's email address. The user activates their account by entering this code on the website.
 
