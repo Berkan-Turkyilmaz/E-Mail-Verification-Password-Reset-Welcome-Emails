@@ -24,7 +24,7 @@ const ForgotPasswordPage = () => {
       className="min-h-screen  w-full  flex justify-center items-center "
     >
       {!submitted ? (
-        <div className="h-auto w-1/4  bg-customLastBG bg-opacity-50 rounded-xl">
+        <div className="h-auto w-1/4 min-w-[275px]  bg-customLastBG bg-opacity-50 rounded-xl">
           <div className=" mt-10 mb-8 text-3xl font-bold text-emerald-500  text-center">
             Forgot Password
           </div>
@@ -75,7 +75,7 @@ const ForgotPasswordPage = () => {
           </div>
         </div>
       ) : (
-        <div className="h-auto w-1/4  bg-customLastBG bg-opacity-50 rounded-xl">
+        <div className="h-auto min-w-[275px] w-1/4  bg-customLastBG bg-opacity-50 rounded-xl">
           <div className=" mt-10 mb-8 text-3xl font-bold text-emerald-500  text-center">
             Forgot Password
           </div>

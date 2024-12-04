@@ -38,15 +38,15 @@ const SignupPage = () => {
       transition={0.5}
       className="h-screen w-screen flex items-center justify-center"
     >
-      <div className="  w-1/4 rounded-xl flex-col flex gap-6 items-center bg-customLastBG bg-opacity-50  ">
-        <div className="mt-12 text-3xl font-bold text-emerald-400 tracking-wide mb-4">
+      <div className="min-w-[300px]  w-1/4 rounded-xl flex-col flex gap-6 items-center bg-customLastBG bg-opacity-50  ">
+        <div className=" p-2 mt-12 text-3xl font-bold text-emerald-400 tracking-wide mb-4">
           Create an Account
         </div>
 
         <div className="p-2 w-2/3  flex bg-customBG2 rounded-xl items-center gap-2">
           <SlUser style={{ fill: "seagreen" }} className="ml-1" />
           <input
-            className="flex-1 outline-none bg-customBG2 text-white "
+            className="flex-1 w-2/3 outline-none bg-customBG2 text-white "
             placeholder="Full Name"
             type="text"
             onChange={(e) => setName(e.target.value)}
@@ -57,7 +57,7 @@ const SignupPage = () => {
           <MdOutlineEmail style={{ fill: "seagreen" }} className="ml-1" />
 
           <input
-            className="flex-1 outline-none text-white bg-customBG2   "
+            className="flex-1 w-2/3 outline-none text-white bg-customBG2   "
             placeholder="E-Mail"
             type="text"
             value={email}
@@ -68,7 +68,7 @@ const SignupPage = () => {
           <RiLockPasswordLine style={{ fill: "seagreen" }} className="ml-1" />
 
           <input
-            className="flex-1 outline-none  text-white bg-customBG2   "
+            className="flex-1 w-2/3 outline-none  text-white bg-customBG2   "
             placeholder="Password"
             type="password"
             value={password}
